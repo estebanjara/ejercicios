@@ -1,9 +1,11 @@
 puts "Dame un número"
 num = gets.chomp.to_i
 
-1..num.each do |div|
+(1..num).each do |div|
 	if num%div==0
-	puts "Es un divisor"
+
+	puts "#{div} es un divisor de #{num}"
 else 
-	puts "no es divisor"
+	puts "#{div} no es divisor de #{num}"
+end
 end
