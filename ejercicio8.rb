@@ -3,8 +3,8 @@ numero=gets.chomp.to_i
 
 contar=0
 
-(1...numero).each do |x|
-	if (numero% x ==0)
+(1..numero).each do |x|
+	if numero%x == 0
 		contar+=1
 	else
 	end
